@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(106, 168, 168);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.form{
+    width: 400px;
+    height: 550px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 17%;
+}
+.form h2{
+    color: cadetblue;
+    margin: 10%;
+    font-family: sans-serif;
+    
+    
+}
+.form input{
+    width: 280px;
+    margin: 7px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+
+}
+.btn{
+    width: 220px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: cadetblue;
+    border-radius: 10px;
+}

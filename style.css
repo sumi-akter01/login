@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: darkgray;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+
+h1{
+    font-size: 2rem;
+    margin: 10px;
+}
+
+section{
+    width: 420px;
+    height: 350px;
+    background: whitesmoke;
+    color:black;
+}
+
+input{
+    margin: 10px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button{
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(104, 141, 140);
+    font-size: 17px;
+    font-weight: 400;
+    border: none;
+    
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cards{
+    width: 370px;
+    margin: 15px;
+    
+}
+.style{
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+.body{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: rgb(237, 145, 145);
+
+   
+}
+.heading{
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    
+}
+heading h3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.body .descript{
+    text-align: justify;
+    line-height: 1.3;
+    color: black;
+}
+.descript button{
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px;
+    font-size: 15px;
+}
+.descript button:hover{
+    background-color: black;
+    cursor: pointer;
+    color: azure;
+}
+.container{
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
